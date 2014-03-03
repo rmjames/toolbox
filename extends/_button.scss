@@ -1,11 +1,12 @@
 %button {
   -webkit-touch-callout: none;
+  box-sizing: border-box;
   background-clip: padding-box;
   border: 0;
   border-radius: 0.1em;
   cursor: pointer;
   display: inline-block;
-  font: 100%/2.6 "Trade Gothic LT Std", sans-serif;
+  font: 100%/2.6 "Open Sans", helvetica;
   letter-spacing: -1px;
   margin: 0;
   padding: 0 1em;
