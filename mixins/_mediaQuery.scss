@@ -1,0 +1,11 @@
+@mixin mq($) {
+  @each $name, $breakpoint in $breakpoints {
+    @if ($name == $size) {
+      @media (max-width: $breakpoint) {
+        @content;
+      }
+    }
+  }
+}
+
+
