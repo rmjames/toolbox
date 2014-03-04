@@ -1,6 +1,6 @@
 %button {
+  @include box-sizing('border-box');
   -webkit-touch-callout: none;
-  box-sizing: border-box;
   background-clip: padding-box;
   border: 0;
   border-radius: 0.1em;
