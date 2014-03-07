@@ -1,0 +1,11 @@
+@mixin li ($style) {
+  @if ($style == float) {
+    float:right;
+    margin-left: 2%;
+  }
+  
+  @else if ($style == inline){
+     display: inline;
+     margin-right: 2%;
+  }
+}
