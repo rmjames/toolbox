@@ -1,0 +1,3 @@
+@function percent() {
+  @return ($container-width/$col-width) * 100;
+  }
