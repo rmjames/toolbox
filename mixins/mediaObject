@@ -1,0 +1,10 @@
+@mixin mediaObject ($direction) {
+  @if direction == left {
+    img{float: left;}
+      p{float: right;}
+  }
+  @if direction == right {
+    img{float: right;}
+      p{float: left;}
+  }
+}
